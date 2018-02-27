@@ -4,3 +4,5 @@ git add .
 git commit -a -m "message"
 git remote
 git push origin master
+
+git pull origin master

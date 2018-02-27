@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-struct student
+struct Node
 {
-   char name[30];
-   char id[30];
-   double cgpa;
+   struct Node* next;
 };
 
-typedef struct student student;
 
 int main()
 {
